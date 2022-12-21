@@ -11,7 +11,7 @@ function App() {
   return (
     <div style={{ backgroundColor: 'white', color: 'black' }} className="App">
       <Nav />
-      <button onClick= {() => mode.darkMmode ? dispatch(lightMode()): dispatch(darkMode())} > {mode.darkMode ? "Light" : "Dark"} Mode </button>
+      <button onClick={() => mode.darkMode ? dispatch(lightMode()) : dispatch(darkMode())}>{mode.darkMode ? "Light" : "Dark"} Mode</button>
       <ContentWrapper />
       <Footer />
     </div>
