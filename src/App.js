@@ -3,7 +3,7 @@ import Nav from './components/Nav'
 import ContentWrapper from './components/ContentWrapper'
 import Footer from './components/Footer'
 import { useSelector, useDispatch } from 'react-redux'
-import { lightMode, darkMode} from './features/modeSlice'
+import { lightMode, darkMode } from './features/modeSlice'
 
 function App() {
   const dispatch = useDispatch()

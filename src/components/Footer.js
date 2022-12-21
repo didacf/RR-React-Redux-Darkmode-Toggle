@@ -4,7 +4,7 @@ import { useSelector } from 'react-redux'
 function Footer() {
 const mode = useSelector ( state => state.mode)
     return (
-        <div className="Footer" style={{'backgroundColor': modeSlice.color3}}>
+        <div className="Footer" style={{'backgroundColor': mode.color3}}>
             <p>Footer Content</p>
         </div>
     )
